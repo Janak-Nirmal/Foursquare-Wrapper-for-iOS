@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		9FDD343C152324E70048E73D /* FoursquareWrapperAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDD3431152324E70048E73D /* FoursquareWrapperAppDelegate.m */; };
+		9FDD343D152324E70048E73D /* BZFoursquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDD3435152324E70048E73D /* BZFoursquare.m */; };
+		9FDD343E152324E70048E73D /* BZFoursquareRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDD3437152324E70048E73D /* BZFoursquareRequest.m */; };
+		9FDD343F152324E70048E73D /* FoursquareWrapperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDD343A152324E70048E73D /* FoursquareWrapperViewController.m */; };
+		9FDD3440152324E70048E73D /* FoursquareWrapperViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FDD343B152324E70048E73D /* FoursquareWrapperViewController.xib */; };
+		9FDD3455152325E30048E73D /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDD344A152325E30048E73D /* NSObject+SBJSON.m */; };
+		9FDD3456152325E30048E73D /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDD344C152325E30048E73D /* NSString+SBJSON.m */; };
+		9FDD3457152325E30048E73D /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDD344E152325E30048E73D /* SBJSON.m */; };
+		9FDD3458152325E30048E73D /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDD3450152325E30048E73D /* SBJsonBase.m */; };
+		9FDD3459152325E30048E73D /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDD3452152325E30048E73D /* SBJsonParser.m */; };
+		9FDD345A152325E30048E73D /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDD3454152325E30048E73D /* SBJsonWriter.m */; };
+		9FDD345F152326710048E73D /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDD345E152326710048E73D /* JSONKit.m */; };
+		9FDD3463152326940048E73D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FDD3462152326940048E73D /* MobileCoreServices.framework */; };
+		9FDD34801523297F0048E73D /* FoursquareWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDD347F1523297F0048E73D /* FoursquareWrapper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* FoursquareWrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoursquareWrapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* FoursquareWrapper_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoursquareWrapper_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* FoursquareWrapper-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FoursquareWrapper-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		9FDD3430152324E70048E73D /* FoursquareWrapperAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoursquareWrapperAppDelegate.h; sourceTree = "<group>"; };
+		9FDD3431152324E70048E73D /* FoursquareWrapperAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoursquareWrapperAppDelegate.m; sourceTree = "<group>"; };
+		9FDD3434152324E70048E73D /* BZFoursquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZFoursquare.h; sourceTree = "<group>"; };
+		9FDD3435152324E70048E73D /* BZFoursquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZFoursquare.m; sourceTree = "<group>"; };
+		9FDD3436152324E70048E73D /* BZFoursquareRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZFoursquareRequest.h; sourceTree = "<group>"; };
+		9FDD3437152324E70048E73D /* BZFoursquareRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZFoursquareRequest.m; sourceTree = "<group>"; };
+		9FDD3439152324E70048E73D /* FoursquareWrapperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoursquareWrapperViewController.h; sourceTree = "<group>"; };
+		9FDD343A152324E70048E73D /* FoursquareWrapperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoursquareWrapperViewController.m; sourceTree = "<group>"; };
+		9FDD343B152324E70048E73D /* FoursquareWrapperViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoursquareWrapperViewController.xib; sourceTree = "<group>"; };
+		9FDD3448152325E30048E73D /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		9FDD3449152325E30048E73D /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		9FDD344A152325E30048E73D /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		9FDD344B152325E30048E73D /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		9FDD344C152325E30048E73D /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		9FDD344D152325E30048E73D /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		9FDD344E152325E30048E73D /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		9FDD344F152325E30048E73D /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		9FDD3450152325E30048E73D /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		9FDD3451152325E30048E73D /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		9FDD3452152325E30048E73D /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		9FDD3453152325E30048E73D /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		9FDD3454152325E30048E73D /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		9FDD345D152326700048E73D /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		9FDD345E152326710048E73D /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		9FDD3462152326940048E73D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		9FDD347E1523297F0048E73D /* FoursquareWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoursquareWrapper.h; sourceTree = "<group>"; };
+		9FDD347F1523297F0048E73D /* FoursquareWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoursquareWrapper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				9FDD3463152326940048E73D /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9FDD342F152324E70048E73D /* AppDelegate */,
+				9FDD3432152324E70048E73D /* FoursquareAPI */,
+				9FDD3438152324E70048E73D /* MainController */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* FoursquareWrapper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				9FDD3462152326940048E73D /* MobileCoreServices.framework */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* FoursquareWrapper_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* FoursquareWrapper-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FDD342F152324E70048E73D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				9FDD3430152324E70048E73D /* FoursquareWrapperAppDelegate.h */,
+				9FDD3431152324E70048E73D /* FoursquareWrapperAppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		9FDD3432152324E70048E73D /* FoursquareAPI */ = {
+			isa = PBXGroup;
+			children = (
+				9FDD3447152325E30048E73D /* JSON */,
+				9FDD3433152324E70048E73D /* BZFoursquare */,
+				9FDD347E1523297F0048E73D /* FoursquareWrapper.h */,
+				9FDD347F1523297F0048E73D /* FoursquareWrapper.m */,
+			);
+			path = FoursquareAPI;
+			sourceTree = "<group>";
+		};
+		9FDD3433152324E70048E73D /* BZFoursquare */ = {
+			isa = PBXGroup;
+			children = (
+				9FDD3434152324E70048E73D /* BZFoursquare.h */,
+				9FDD3435152324E70048E73D /* BZFoursquare.m */,
+				9FDD3436152324E70048E73D /* BZFoursquareRequest.h */,
+				9FDD3437152324E70048E73D /* BZFoursquareRequest.m */,
+			);
+			path = BZFoursquare;
+			sourceTree = "<group>";
+		};
+		9FDD3438152324E70048E73D /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				9FDD3439152324E70048E73D /* FoursquareWrapperViewController.h */,
+				9FDD343A152324E70048E73D /* FoursquareWrapperViewController.m */,
+				9FDD343B152324E70048E73D /* FoursquareWrapperViewController.xib */,
+			);
+			path = MainController;
+			sourceTree = "<group>";
+		};
+		9FDD3447152325E30048E73D /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				9FDD3448152325E30048E73D /* JSON.h */,
+				9FDD345D152326700048E73D /* JSONKit.h */,
+				9FDD345E152326710048E73D /* JSONKit.m */,
+				9FDD3449152325E30048E73D /* NSObject+SBJSON.h */,
+				9FDD344A152325E30048E73D /* NSObject+SBJSON.m */,
+				9FDD344B152325E30048E73D /* NSString+SBJSON.h */,
+				9FDD344C152325E30048E73D /* NSString+SBJSON.m */,
+				9FDD344D152325E30048E73D /* SBJSON.h */,
+				9FDD344E152325E30048E73D /* SBJSON.m */,
+				9FDD344F152325E30048E73D /* SBJsonBase.h */,
+				9FDD3450152325E30048E73D /* SBJsonBase.m */,
+				9FDD3451152325E30048E73D /* SBJsonParser.h */,
+				9FDD3452152325E30048E73D /* SBJsonParser.m */,
+				9FDD3453152325E30048E73D /* SBJsonWriter.h */,
+				9FDD3454152325E30048E73D /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* FoursquareWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "FoursquareWrapper" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoursquareWrapper;
+			productName = FoursquareWrapper;
+			productReference = 1D6058910D05DD3D006BFB54 /* FoursquareWrapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FoursquareWrapper" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* FoursquareWrapper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				9FDD3440152324E70048E73D /* FoursquareWrapperViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				9FDD343C152324E70048E73D /* FoursquareWrapperAppDelegate.m in Sources */,
+				9FDD343D152324E70048E73D /* BZFoursquare.m in Sources */,
+				9FDD343E152324E70048E73D /* BZFoursquareRequest.m in Sources */,
+				9FDD343F152324E70048E73D /* FoursquareWrapperViewController.m in Sources */,
+				9FDD3455152325E30048E73D /* NSObject+SBJSON.m in Sources */,
+				9FDD3456152325E30048E73D /* NSString+SBJSON.m in Sources */,
+				9FDD3457152325E30048E73D /* SBJSON.m in Sources */,
+				9FDD3458152325E30048E73D /* SBJsonBase.m in Sources */,
+				9FDD3459152325E30048E73D /* SBJsonParser.m in Sources */,
+				9FDD345A152325E30048E73D /* SBJsonWriter.m in Sources */,
+				9FDD345F152326710048E73D /* JSONKit.m in Sources */,
+				9FDD34801523297F0048E73D /* FoursquareWrapper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FoursquareWrapper_Prefix.pch;
+				INFOPLIST_FILE = "FoursquareWrapper-Info.plist";
+				PRODUCT_NAME = FoursquareWrapper;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FoursquareWrapper_Prefix.pch;
+				INFOPLIST_FILE = "FoursquareWrapper-Info.plist";
+				PRODUCT_NAME = FoursquareWrapper;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FOURSQUARE_CALLBACK_URL = "fsqdemo://foursquare";
+				FOURSQUARE_CLIENT_ID = 3FOC1MJJLJOAOS13FLUBCIL1PQQ14IQIGHVPHOTGBWCW011Y;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FOURSQUARE_CALLBACK_URL = "fsqdemo://foursquare";
+				FOURSQUARE_CLIENT_ID = 3FOC1MJJLJOAOS13FLUBCIL1PQQ14IQIGHVPHOTGBWCW011Y;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "FoursquareWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FoursquareWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

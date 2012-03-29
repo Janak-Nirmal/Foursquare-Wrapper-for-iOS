@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* FoursquareWrapper */ = {
+		activeExec = 0;
+		executables = (
+			9FDD34191523233B0048E73D /* FoursquareWrapper */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 9FDD34191523233B0048E73D /* FoursquareWrapper */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* FoursquareWrapper */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* FoursquareWrapper */,
+		);
+		breakpoints = (
+			9F2BF2FC1523479A00DCB66C /* FoursquareWrapper.m:125 */,
+			9F2BF30B152347B300DCB66C /* FoursquareWrapper.m:256 */,
+		);
+		codeSenseManager = 9FDD3425152323630048E73D /* Code sense */;
+		executables = (
+			9FDD34191523233B0048E73D /* FoursquareWrapper */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA23EDF0692099D00951B8B" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					354,
+					20,
+					254,
+					254,
+					182,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					934,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 354718871;
+			PBXWorkspaceStateSaveDate = 354718871;
+		};
+		perUserProjectItems = {
+			9F9D77E5152495A9008CD19F /* PBXTextBookmark */ = 9F9D77E5152495A9008CD19F /* PBXTextBookmark */;
+			9F9D77FB15249604008CD19F /* PlistBookmark */ = 9F9D77FB15249604008CD19F /* PlistBookmark */;
+			9F9D780B1524965D008CD19F /* PBXTextBookmark */ = 9F9D780B1524965D008CD19F /* PBXTextBookmark */;
+		};
+		sourceControlManager = 9FDD3424152323630048E73D /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107310486CEB800E47090 /* FoursquareWrapper-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1112, 648}}";
+			sepNavSelRange = "{1051, 0}";
+			sepNavVisRange = "{0, 1118}";
+		};
+	};
+	9F2BF2FC1523479A00DCB66C /* FoursquareWrapper.m:125 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 9FDD347F1523297F0048E73D /* FoursquareWrapper.m */;
+		functionName = "-foursquareDidAuthorize:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 125;
+		location = FoursquareWrapper;
+		modificationTime = 354636959.499085;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	9F2BF30B152347B300DCB66C /* FoursquareWrapper.m:256 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 9FDD347F1523297F0048E73D /* FoursquareWrapper.m */;
+		functionName = "-checkCallForCurrentRequest";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 256;
+		location = FoursquareWrapper;
+		modificationTime = 354636959.4999009;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	9F9D77E5152495A9008CD19F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FDD347E1523297F0048E73D /* FoursquareWrapper.h */;
+		name = "FoursquareWrapper.h: 18";
+		rLen = 0;
+		rLoc = 484;
+		rType = 0;
+		vrLen = 1289;
+		vrLoc = 0;
+	};
+	9F9D77FB15249604008CD19F /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* FoursquareWrapper-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Jennis/Personal/FoursquareWrapper/FoursquareWrapper-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	9F9D780B1524965D008CD19F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FDD347E1523297F0048E73D /* FoursquareWrapper.h */;
+		name = "FoursquareWrapper.h: 16";
+		rLen = 0;
+		rLoc = 424;
+		rType = 0;
+		vrLen = 1351;
+		vrLoc = 0;
+	};
+	9FDD34191523233B0048E73D /* FoursquareWrapper */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = FoursquareWrapper;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	9FDD3424152323630048E73D /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	9FDD3425152323630048E73D /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	9FDD3430152324E70048E73D /* FoursquareWrapperAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1112, 671}}";
+			sepNavSelRange = "{97, 0}";
+			sepNavVisRange = "{0, 534}";
+		};
+	};
+	9FDD3431152324E70048E73D /* FoursquareWrapperAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1539, 1300}}";
+			sepNavSelRange = "{2830, 0}";
+			sepNavVisRange = "{2548, 457}";
+		};
+	};
+	9FDD3434152324E70048E73D /* BZFoursquare.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1279, 806}}";
+			sepNavSelRange = "{2297, 0}";
+			sepNavVisRange = "{522, 2182}";
+		};
+	};
+	9FDD3435152324E70048E73D /* BZFoursquare.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1539, 1846}}";
+			sepNavSelRange = "{3798, 0}";
+			sepNavVisRange = "{3520, 576}";
+		};
+	};
+	9FDD3437152324E70048E73D /* BZFoursquareRequest.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1112, 4290}}";
+			sepNavSelRange = "{1378, 0}";
+			sepNavVisRange = "{583, 1176}";
+		};
+	};
+	9FDD3439152324E70048E73D /* FoursquareWrapperViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1112, 670}}";
+			sepNavSelRange = "{188, 29}";
+			sepNavVisRange = "{0, 701}";
+		};
+	};
+	9FDD343A152324E70048E73D /* FoursquareWrapperViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1112, 2678}}";
+			sepNavSelRange = "{1355, 0}";
+			sepNavVisRange = "{880, 1125}";
+		};
+	};
+	9FDD347E1523297F0048E73D /* FoursquareWrapper.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1112, 1417}}";
+			sepNavSelRange = "{424, 0}";
+			sepNavVisRange = "{0, 1351}";
+		};
+	};
+	9FDD347F1523297F0048E73D /* FoursquareWrapper.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1112, 5083}}";
+			sepNavSelRange = "{3433, 0}";
+			sepNavVisRange = "{0, 1013}";
+		};
+	};
+}
